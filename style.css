@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("images/bg-desktop.svg");
+    color: white;
+    padding: 3% 5%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+
+
+.main{
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 5%;
+
+
+}
+
+.main-content{
+    width: 40%;
+    margin: 1%;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    padding-top: 5%;
+}
+
+.description{
+    margin: 5% 0;
+    line-height: 1.8;
+}
+
+button{
+    size: 50px;
+
+}
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+i{
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px;
+    border-radius: 50%;
+}
