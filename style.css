@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -14,6 +16,10 @@ body{
 
 
 
+.illustation-image{
+    width: 55%;
+}
+
 
 .main{
     display: flex; 
@@ -24,7 +30,7 @@ body{
 }
 
 .main-content{
-    width: 40%;
+    width: 35%;
     margin: 1%;
 }
 
@@ -41,7 +47,15 @@ h1{
 }
 
 button{
-    size: 50px;
+
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding: 15px 60px;
+    font-size: 18px;
+    color: hsl(257, 40%, 49%);
+    border: solid 1px black;
 
 }
 
@@ -55,4 +69,71 @@ i{
     margin: 10px;
     border: solid 1px;
     border-radius: 50%;
+    text-align: center;
+}
+
+button:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+i:hover{
+    color: hsl(300, 69%, 71%);
+}
+
+.facebook{
+    padding: 10px 13px;
+}
+
+@media screen and (max-width: 1000px) {
+    body{
+        text-align: center;
+    }
+
+    .hubble-icon{
+        text-align:left;
+        margin: 20px;
+    }
+
+    .hubble-icon img{
+        width: 40%;
+    }
+
+    .main{
+        display: block;
+    }
+
+    .illustation-image{
+        width: 90%;
+        margin: 10px auto
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    .main-content{
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    button{
+        padding: 10px 75px;
+        font-size: 13px;
+    }
+
+    footer{
+        display: block;
+        margin: 100px 0px;
+    }
+
+    i{
+        margin: 5px;
+        font-size: 13px;
+    }
+
+    
+
+
 }
